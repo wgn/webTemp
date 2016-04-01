@@ -1,1 +1,1 @@
-# webTemp
+# 一个maven管理的web项目，里面有一点spring和mybatis的东西，可以根据情况修改搭建新的web工程

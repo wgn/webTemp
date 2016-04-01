@@ -1,0 +1,85 @@
+<VAST version="2.0">
+<Ad sequence="1" id="10001716">
+<InLine>
+<AdSystem>vuclip</AdSystem>
+<AdTitle>vuclip inhouse vast</AdTitle>
+<Description>vuclip inhouse vast</Description>
+<Impression id="vuclip">
+<![CDATA[
+http://ad0.vuclip.com/advast?appid=9999&adid=10001716&vastid=0
+]]>
+</Impression>
+<Impression id="vuclip_thirdPart">
+<![CDATA[
+http://ad.doubleclick.net/ddm/trackimp/N6267.819587.M.VUCLIP.COM/B8674170.117525400%3Bdc_trk_aid=290388027%3Bdc_trk_cid=62454792%3Bord=[timestamp]?
+]]>
+</Impression>
+<Creatives>
+<Creative AdID="10001716" id="10001716" sequence="1">
+<Linear>
+<Duration>00:14</Duration>
+<TrackingEvents>
+<Tracking event="start">
+<![CDATA[
+http://ad0.vuclip.com/advast?appid=9999&adid=10001716&vastid=1
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+http://ad0.vuclip.com/advast?appid=9999&adid=10001716&vastid=2
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+http://ad0.vuclip.com/advast?appid=9999&adid=10001716&vastid=3
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+http://ad0.vuclip.com/advast?appid=9999&adid=10001716&vastid=4
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+http://ad0.vuclip.com/advast?appid=9999&adid=10001716&vastid=5
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickTracking id="vuclip">
+<![CDATA[
+http://m.vuclip.com/adc?sn=9999&uid=7947828175&aid=10001716&cid=548100994&url=http%3A%2F%2Fad0.vuclip.com%2Fadvast%3Fappid%3D9999%26adid%3D10001716%26vastid%3D6
+]]>
+</ClickTracking>
+<ClickThrough>
+<![CDATA[
+http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=15761230&PluID=0&ord=[timestamp]&mb=1&ck=1
+]]>
+</ClickThrough>
+</VideoClicks>
+<MediaFiles>
+<MediaFile bitrate="100" delivery="progressive" type="video/mp4">
+<![CDATA[
+http://192.168.2.63:8080/jwtest1/f92b_w_1.np.mp4
+]]>
+</MediaFile>
+<MediaFile bitrate="225" delivery="progressive" type="video/mp4">
+<![CDATA[
+http://s840.vuclip.com/f9/2b/f92b9c39f54a876b494f90ae73022286/np113207/f92b_w_2.np.3gp
+]]>
+</MediaFile>
+<MediaFile bitrate="350" delivery="progressive" type="video/mp4">
+<![CDATA[
+http://s840.vuclip.com/f9/2b/f92b9c39f54a876b494f90ae73022286/np113207/f92b_w_3.np.3gp
+]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+<Creative AdID="10001716" id="10001716" sequence="1">
+<CompanionAds/>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>

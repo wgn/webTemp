@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.zhuani21.jee.base.test.mybatis.UserMapperTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+com.zhuani21.jee.base.test.mybatis.UserMapperTest.testDeleteUserViaId()  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zhuani21.jee.base.test.mybatis.UserMapperTest.testDeleteUserViaId(UserMapperTest.java:68)
+
+com.zhuani21.jee.base.test.mybatis.UserMapperTest.testFindUserCustomViaCustom()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zhuani21.jee.base.test.mybatis.UserMapperTest.testFindUserCustomViaCustom(UserMapperTest.java:97)
+
+com.zhuani21.jee.base.test.mybatis.UserMapperTest.testLazyLoadOrders()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zhuani21.jee.base.test.mybatis.UserMapperTest.testLazyLoadOrders(UserMapperTest.java:126)
+
+com.zhuani21.jee.base.test.mybatis.UserMapperTest.testFindUserViaId()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zhuani21.jee.base.test.mybatis.UserMapperTest.testFindUserViaId(UserMapperTest.java:32)
+
+com.zhuani21.jee.base.test.mybatis.UserMapperTest.testFindUsersViaName()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zhuani21.jee.base.test.mybatis.UserMapperTest.testFindUsersViaName(UserMapperTest.java:42)
+
+com.zhuani21.jee.base.test.mybatis.UserMapperTest.testInsertUser()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zhuani21.jee.base.test.mybatis.UserMapperTest.testInsertUser(UserMapperTest.java:53)
+
+com.zhuani21.jee.base.test.mybatis.UserMapperTest.testUpdateUser()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zhuani21.jee.base.test.mybatis.UserMapperTest.testUpdateUser(UserMapperTest.java:84)
+
+com.zhuani21.jee.base.test.mybatis.UserMapperTest.testFindOrders()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zhuani21.jee.base.test.mybatis.UserMapperTest.testFindOrders(UserMapperTest.java:115)
+

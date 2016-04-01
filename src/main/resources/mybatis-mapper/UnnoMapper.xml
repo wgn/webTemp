@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhuani21.jee.base.mapper.UnnoMapper">
+	<insert id="insertUnnoList" parameterType="java.util.List">
+		<if test="list!=null and list.size>0">
+			<foreach collection="list" item="unno"
+				open="insert into unno (period,pre_value,now_value,create_date) values ("
+				close=")" separator="),(">
+				#{unno.period},#{unno.pre_value},#{unno.now_value},#{unno.create_date}
+			</foreach>
+		</if>
+	</insert>
+</mapper>
